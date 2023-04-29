@@ -59,13 +59,64 @@
 
 //Store mark and john.s heights in variables
 
-const johnHeight = 1.95;
-const markHeight = 1.69;
-const johnMass = 85;
-const markMass = 78;
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
 
-//Calculate both bmis using the formula above
-const johnBmi = 85 / (1.95 * 1.95);
-const markBmi = 78 / (1.69 * 1.69);
 
-//Creating a Boolean variable
+
+
+// const massMark = 95;
+// const heightMark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
+
+// //Calculate both bmis using the formula above
+// const BmiMark = massMark / heightMark ** 2;
+// const BmiJohn = massJohn / (heightJohn * heightJohn);
+// const markHigherBmi = BmiMark > BmiJohn;
+// console.log(BmiJohn, BmiMark, markHigherBmi);
+// //Creating a Boolean variable
+
+
+// const firstName = 'Jonas';
+// const job = 'teacher';
+// const birthYear = 1995;
+// const year = 2037;
+
+// const jonasNew = `i'm ${firstName} , a
+//  ${year - birthYear} year old ${job} !`;
+
+// console.log(jonasNew);
+
+// console.log(`i am a regular string.....`);
+
+// console.log('string with \n\
+// multiple \n\
+// lines');
+
+// console.log(`string 
+// multiple
+// lines`);
+
+
+const age = 15;
+// const isOldEnough = age >= 18;
+if (age >= 18) {
+    console.log('sarah can start driving license 🚗');
+} else {
+    const yearsleft = 18 - age;
+    console.log(`Sarah is too young.Wait another ${yearsleft} years 😜`);
+}
+
+const birthYear = 1998;
+
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
+
