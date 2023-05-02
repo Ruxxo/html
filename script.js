@@ -7,7 +7,7 @@
 // console.log(40 + 8 + 23 - 10);
 
 // //Declaring first name 
-// let firstName = 'Ebuka';
+// let fir stName = 'Ebuka';
 // console.log(firstName);
 
 // //let this house be the first part
@@ -311,28 +311,97 @@
 
 
 
-const day = 'moday ';
+// const day = 'moday ';
 
-switch (day) {
-    case 'monday '://day ====monday
-        console.log('Plan course structure');
-        console.log('Go to coding meetup');
-        break;
-    case 'tuesday':
-        console.log('prepare Theory videos');
-        break;
-    case 'wednesday':
-    case 'thursday':
-        console.log('Write code examples');
-        break;
-    case 'friday':
-        console.log('Record videos');
-        break;
-    case 'saturday':
-    case 'sunday':
-        console.log('Enjoy the Weekend :D');
-        break;
-    default:
-        console.log('Not a valid day!');
+// switch (day) {
+//     case 'monday '://day ====monday
+//         console.log('Plan course structure');
+//         console.log('Go to coding meetup');
+//         break;
+//     case 'tuesday':
+//         console.log('prepare Theory videos');
+//         break;
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log('Write code examples');
+//         break;
+//     case 'friday':
+//         console.log('Record videos');
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('Enjoy the Weekend :D');
+//         break;
+//     default:
+//         console.log('Not a valid day!');
 
+// }
+
+// const day = 'monday';
+
+// if (day === 'monday') {
+//     console.log('plan course structure')
+//     console.log('Go to coding meetup')
+
+// } else if (day === 'tuesday') {
+//     console.log('prepare theory videos')
+
+// } else if (day === 'wednesday' || day === 'thursday') {
+//     console.log('write code ecamples')
+
+// } else if (day === 'friday') {
+//     console.log('record videos')
+
+// } else if (day === 'saturday' || day === 'sunday') {
+//     console.log('enjoy the weekend 😁')
+
+// } else {
+//     console.log('No one cares ,it is not valid');
+// }
+
+
+
+// if (23 > 10) {
+//     const str = '23 is bigger ';
+// }
+
+// const me = 'jonas';
+// console.log(`i'm ${2037 - 1991} years old ${me}`)
+
+
+
+
+//Condotinal tenary operator
+//a
+
+const age = 23;
+// age >= 18 ? console.log('i like to drink wine🍷') : console.log('I like to drink water 💧');
+
+
+//b
+const drink = age >= 18 ? ' wine🍷' : ' water💧';
+console.log(drink);
+
+//same as writing ;
+let drink2;
+if (age >= 18) {
+    drink2 = ' wine🍷';
+} else {
+    drink2 = 'water💧';
 }
+console.log(drink2);
+
+
+const billValue = 275;
+
+let tip; billvalue / 100 * 15
+if (tip > )
+
+
+
+
+
+    //same as writing
+    console.log(`i like to drink ${age >= 18 ? ' wine🍷' : ' water💧'}`);
+
+
